@@ -1,0 +1,41 @@
+import 'dart:developer';
+
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+class SimpleBlocObserver implements BlocObserver {
+  @override
+  void onChange(BlocBase bloc, Change change) {
+    log('change : $change');
+  }
+
+  @override
+  void onClose(BlocBase bloc) {
+    log('close : $Bloc');
+  }
+
+  @override
+  void onCreate(BlocBase bloc) {
+    log('create : $Bloc');
+  }
+
+  @override
+  void onError(BlocBase bloc, Object error, StackTrace stackTrace) {
+    // TODO: implement onError
+  }
+
+  @override
+  void onEvent(Bloc<dynamic, dynamic> bloc, Object? event) {
+    // TODO: implement onEvent
+  }
+
+  @override
+  void onTransition(Bloc<dynamic, dynamic> bloc, Transition<dynamic, dynamic> transition) {
+    // TODO: implement onTransition
+  }
+
+  @override
+  void onDone(Bloc<dynamic, dynamic> bloc, Object? event, [Object? error, StackTrace? stackTrace]) {
+    // TODO: implement onDone
+  }
+
+}

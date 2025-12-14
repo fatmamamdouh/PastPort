@@ -129,4 +129,52 @@ class Assets
   /// Assets for ancientEgyptDetails_2
   /// assets/images/ancient_egypt_details_2.png
   static const String ancientEgyptDetails_2 = "assets/images/ancient_egypt_details_2.png";
+
+  /// Assets for citizenRoleEgypt
+  /// assets/images/citizen_role_image_egypt.png
+  static const String citizenRoleEgypt = "assets/images/citizen_role_image_egypt.png";
+
+  /// Assets for characterRoleEgypt
+  /// assets/images/character_role_image_egypt.png
+  static const String characterRoleEgypt = "assets/images/character_role_image_egypt.png";
+
+  /// Assets for historicalRoleEgypt
+  /// assets/images/historical_role_image_egypt.png
+  static const String historicalRoleEgypt = "assets/images/historical_role_image_egypt.png";
+
+  /// Assets for visitorRoleEgypt
+  /// assets/images/visitor_role_image_egypt.png
+  static const String visitorRoleEgypt = "assets/images/visitor_role_image_egypt.png";
+
+  /// Assets for citizenRoleImageEgypt
+  /// assets/images/citizen_role_image_egypt.png
+  static const String citizenRoleImageEgypt = "assets/images/citizen_role_image_egypt.png";
+
+  /// Assets for culturalGoalImageEgypt
+  /// assets/images/cultural_goal_image_egypt.png
+  static const String culturalGoalImageEgypt = "assets/images/cultural_goal_image_egypt.png";
+
+  /// Assets for educationalGoalImageEgypt
+  /// assets/images/educational_goal_image_egypt.png
+  static const String educationalGoalImageEgypt = "assets/images/educational_goal_image_egypt.png";
+
+  /// Assets for explorationGoalImageEgypt
+  /// assets/images/exploration_goal_image_egypt.png
+  static const String explorationGoalImageEgypt = "assets/images/exploration_goal_image_egypt.png";
+
+  /// Assets for pyramidsLocationImage
+  /// assets/images/pyramids_location_image.png
+  static const String pyramidsLocationImage = "assets/images/pyramids_location_image.png";
+
+  /// Assets for valleyKingsLocationImage
+  /// assets/images/valley_kings_location_image.png
+  static const String valleyKingsLocationImage = "assets/images/valley_kings_location_image.png";
+
+  /// Assets for karnakTemplateImage
+  /// assets/images/karnak_template_location_image.png
+  static const String karnakTemplateImage = "assets/images/karnak_template_location_image.png";
+
+  /// Assets for hatshepsutTemplateLocationImage
+  /// assets/images/hatshepsut_template_location_image.png
+  static const String hatshepsutTemplateLocationImage = "assets/images/hatshepsut_template_location_image.png";
 }

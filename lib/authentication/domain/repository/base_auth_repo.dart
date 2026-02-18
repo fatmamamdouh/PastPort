@@ -1,10 +1,12 @@
 
+import 'package:pastport/authentication/domain/entities/registeration.dart';
+
 abstract class BaseAuthRepository
 {
   void userLoginWithEmailAndPassword();
   void userLoginWithFacebook();
   void userLoginWithGoogle();
-  void registerNewUser();
+  Future<Registeration> registerNewUser();
   void checkIfUserLoggedIn();
   void resetNewPassword();
   void sendPasswordResetEmail();

@@ -1,7 +1,6 @@
 import 'package:go_router/go_router.dart';
 import 'package:pastport/authentication/presentation/screens/auth_selection_screen.dart';
 import 'package:pastport/authentication/presentation/screens/login_screen.dart';
-import 'package:pastport/subscription/presentation/screens/language_selection_screen.dart';
 
 abstract class AppRouter
 {
@@ -27,7 +26,7 @@ abstract class AppRouter
         GoRoute(
           name: kOnBoardingView,
           path: kOnBoardingView,
-          builder: (context, state) => const AuthSelectionScreen(),
+          builder: (context, state) => const SceneViewScreen(),
         ),
       ]
   );

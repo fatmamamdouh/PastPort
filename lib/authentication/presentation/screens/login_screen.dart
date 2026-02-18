@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pastport/authentication/presentation/widgets/login_screen_widgets/bottom_part_login_screen.dart';
 import 'package:pastport/authentication/presentation/widgets/login_screen_widgets/top_part_login_screen.dart';
-import 'package:pastport/core/utils/app_colors.dart';
 
 
 class LoginScreen extends StatelessWidget {

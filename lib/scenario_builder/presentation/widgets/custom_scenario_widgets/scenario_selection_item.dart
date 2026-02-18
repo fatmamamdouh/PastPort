@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:pastport/core/extensions/helper_extension.dart';
 import 'package:pastport/core/utils/app_styles.dart';
-import 'package:pastport/scenario_builder/presentation/screens/role_selection_screen.dart';
 import 'package:pastport/scenario_builder/presentation/widgets/era_details_screen_widgets/list_view_item.dart';
 
 class ScenarioSelectionItem extends StatelessWidget {

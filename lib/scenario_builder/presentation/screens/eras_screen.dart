@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:pastport/core/utils/app_colors.dart';
 import 'package:pastport/core/utils/app_images.dart';
 import 'package:pastport/core/utils/app_strings.dart';
-import 'package:pastport/core/utils/app_styles.dart';
 import 'package:pastport/scenario_builder/presentation/widgets/eras_screen_widgets/appBar_of_screen.dart';
 import 'package:pastport/scenario_builder/presentation/widgets/eras_screen_widgets/appbar_shadow_era_screen.dart';
 import 'package:pastport/scenario_builder/presentation/widgets/eras_screen_widgets/era_card_widget.dart';

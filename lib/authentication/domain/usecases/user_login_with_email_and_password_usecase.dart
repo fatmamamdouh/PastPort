@@ -6,7 +6,7 @@ class UserLoginWithEmailAndPassword
 
   UserLoginWithEmailAndPassword(this.baseAuthRepository);
 
-  void execute(String email, String password)
+  void execute()
   {
     return baseAuthRepository.userLoginWithEmailAndPassword();
   }

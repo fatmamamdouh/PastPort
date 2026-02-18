@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:pastport/core/utils/app_colors.dart';
-import 'package:pastport/core/utils/size_config.dart';
 
 abstract class Styles
 {

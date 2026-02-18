@@ -1,3 +1,4 @@
+import 'package:pastport/authentication/domain/entities/registeration.dart';
 import 'package:pastport/authentication/domain/repository/base_auth_repo.dart';
 
 class RegisterNewUser
@@ -6,9 +7,9 @@ class RegisterNewUser
 
   RegisterNewUser(this.baseAuthRepository);
 
-  void execute()
+  Future<Registeration> execute() async
   {
-    return baseAuthRepository.registerNewUser();
+    return await baseAuthRepository.registerNewUser();
   }
 
 }

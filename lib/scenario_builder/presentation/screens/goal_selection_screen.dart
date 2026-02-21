@@ -3,9 +3,9 @@ import 'package:pastport/core/utils/app_colors.dart';
 import 'package:pastport/core/utils/app_images.dart';
 import 'package:pastport/core/utils/app_strings.dart';
 import 'package:pastport/core/utils/app_styles.dart';
+import 'package:pastport/scenario_builder/presentation/screens/scene_view_screen.dart';
 import 'package:pastport/scenario_builder/presentation/widgets/custom_scenario_widgets/head_of_scenario_screens.dart';
 import 'package:pastport/scenario_builder/presentation/widgets/custom_scenario_widgets/scenario_selection_item.dart';
-import 'package:pastport/test.dart';
 
 class GoalSelectionScreen extends StatelessWidget {
   const GoalSelectionScreen({super.key});
@@ -46,7 +46,7 @@ class GoalSelectionScreen extends StatelessWidget {
                       context,
                       PageRouteBuilder(
                         transitionDuration: Duration(milliseconds: 400), // سرعة الأنيميشن
-                        pageBuilder: (_, animation, secondaryAnimation) => TestScreen(),
+                        pageBuilder: (_, animation, secondaryAnimation) => SceneViewScreen(),
                         transitionsBuilder: (_, animation, __, child) {
                           // Slide Animation
                           const begin = Offset(1.0, 0.0); // من اليمين

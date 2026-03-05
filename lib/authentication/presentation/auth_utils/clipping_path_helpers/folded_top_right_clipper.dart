@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class FoldedTopRightClipper extends CustomClipper<Path> {
   @override
@@ -6,7 +7,7 @@ class FoldedTopRightClipper extends CustomClipper<Path> {
     final path = Path();
 
     path.lineTo(0, 0);                    // Start top-left
-    path.lineTo(size.width - 80, 0);     // Before the corner
+    path.lineTo((size.width - 80), 0);     // Before the corner
     path.lineTo(size.width, 80);         // Diagonal cut
     path.lineTo(size.width, size.height);
     path.lineTo(0, size.height);

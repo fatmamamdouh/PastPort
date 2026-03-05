@@ -26,24 +26,33 @@ class _LanguageSelectionScreenState extends State<LanguageSelectionScreen> {
           children: [
             HeadOfLanguageScreen(),
             SizedBox(height: context.height * .03),
-            GroupOfLanguages(),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 55.0, vertical: 25.0),
-              child: CustomButton(
-                borderColor: Constants.isSelectedLanguage? AppColors.primaryColor : AppColors.primaryColor.withValues(alpha: .20),
-                buttonColor: Constants.isSelectedLanguage? AppColors.primaryColor : AppColors.primaryColor.withValues(alpha: .20),
-                radius: 10.0,
-                height: 55.0,
-                onPressed: () {
-                  setState(() {
+            Expanded(
+              child: SingleChildScrollView(
+                physics: BouncingScrollPhysics(),
+                child: Column(
+                  children: [
+                    GroupOfLanguages(),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 55.0, vertical: 25.0),
+                      child: CustomButton(
+                        borderColor: Constants.isSelectedLanguage? AppColors.primaryColor : AppColors.primaryColor.withValues(alpha: .20),
+                        buttonColor: Constants.isSelectedLanguage? AppColors.primaryColor : AppColors.primaryColor.withValues(alpha: .20),
+                        radius: 10.0,
+                        height: 55.0,
+                        onPressed: () {
+                          setState(() {
 
-                  });
-                  context.navigate(SubscriptionPlansScreen());
-                },
-                buttonText: AppStrings.continueButtonText,
-                textStyle: Styles.styleMedium16(
-                  context,
-                ).copyWith(fontSize: 16, color: AppColors.secondaryColor),
+                          });
+                          context.navigate(SubscriptionPlansScreen());
+                        },
+                        buttonText: AppStrings.continueButtonText,
+                        textStyle: Styles.styleMedium16(
+                          context,
+                        ).copyWith(fontSize: 16, color: AppColors.secondaryColor),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
           ],

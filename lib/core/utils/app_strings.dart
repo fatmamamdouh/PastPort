@@ -167,4 +167,85 @@ you have full range of motion.''';
   static const String pantheonRomanText = "Pantheon";
   static const String romanForumRomanText = "Roman Forum";
   static const String pompeiiRomanText = "Pompeii";
+
+  /// faq screen
+  static const String faqTitleScreen = "FAQ";
+  static const String accountText = "Account";
+  static const String billingText = "Billing";
+  static const String securityText = "Security";
+  static const String settingsText = "Settings";
+
+  static const String accountFirstQuestion = "How do i reset my password ?";
+  static const String accountSecondQuestion = "How do i update my profile information ?";
+  static const String billingFirstQuestion = "What payment method do you accept ?";
+  static const String billingSecondQuestion = "How do i cancel my subscription ?";
+  static const String securityQuestion = "Is my data secure ?";
+  static const String settingsQuestion = "Can i use the app on multiple devices ?";
+
+  static const String accountFirstAnswer = '''To reset your password, go to the login screen and tap
+  'Forgot Password'. Enter your mail address and we'll send 
+  you a link to create a new password. Make sure to check
+  your spam folder if you don't receive the email within a few
+  minutes.''';
+
+  static const String accountSecondAnswer = '''Tap on your profile icon, then select 'Edit Profile'. You can 
+  update your name, email, phone number, photo, and bio. 
+  Don't forget to save your changes before leaving the 
+  screen.''';
+
+  static const String billingFirstAnswer = '''We accept all major credit cards (Visa, MasterCard, 
+  American Express, Discover),PayPal, Apple Pay, and Google 
+  Pay. All payments are processed securely through our 
+  payment partners.''';
+
+  static const String billingSecondAnswer = '''To cancel your subscription, go to Settings > Subscription 
+
+> Manage Plan. Tap  'Cancel Subscription' and confirm 
+
+your choice. You'll retain access until  the end of your 
+
+current billing period. No refunds for partial periods.''';
+
+  static const String securityAnswer = '''Yes, we take data security very seriously. All
+  data is encrypted both in transit and at rest. 
+  We use industry-standard security measures 
+  and regularly audit our systems. You can read 
+  more in our Privacy Policy.''';
+
+  static const String settingsAnswer = '''Yes, you can use your account on multiple 
+  devices simultaneously. Your data will sync 
+  automatically across all devices. Simply log in 
+  with your credentials on each device you want 
+  to use.''';
+
+  static const String needHelpQuestion = "Still need help ?";
+
+  static const String needHelpAnswer = '''If you couldn't find the answer you're looking 
+  for, please contact our support team.''';
+
+  /// support screen
+
+  static const String supportScreenTitle = "Contact Support";
+  static const String weHereToHelpText = "We're here to help";
+  static const String weHereToHelpDescriptionText = '''Choose your preferred method to get in touch
+  with our support team. We typically respond within 24 hours.''';
+
+  static const String emailSupportText = "Email Support";
+  static const String sendUsEmailText = "Send us an email and we’ll respond within 24 hours";
+  static const String emailAddressText = "Support@example.com";
+
+  static const String responseTimeText = "Response Times";
+  static const String averageResponseTimeText = "Average response time";
+  static const String twelveHoursText = "~12 hours";
+
+  static const String operatingHoursText = "Operating Hours";
+  static const String monToFriText = "Monday - Friday";
+  static const String saturdayText = "Saturday";
+  static const String sundayText = "Sunday";
+  static const String nineToSixHoursText = "9:00 AM - 6:00 PM";
+  static const String tenToFourHoursText = "10:00 AM - 4:00 PM";
+  static const String closedText = "Closed";
+  static const String timezoneText = "All times in EST timezone";
+  static const String beforeContactSupportText = '''Before contacting support, check our FAQ section for quick 
+  answers to common questions.''';
 }

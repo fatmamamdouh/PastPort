@@ -10,11 +10,13 @@ class TopPartLoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: context.height * .5,
+      height: context.height * .55,
       decoration: BoxDecoration(
         boxShadow: [
           BoxShadow(
-            color: AppColors.blackColor.withOpacity(0.2),
+            color: AppColors.blackColor.withValues(
+              alpha: 0.2,
+            ),
             spreadRadius: 0,
             blurRadius: 15,
             offset: const Offset(4, -5),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:pastport/core/extensions/helper_extension.dart';
 import 'package:pastport/core/utils/app_colors.dart';
 import 'package:pastport/core/utils/app_strings.dart';
@@ -15,18 +16,29 @@ class GuidesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: FrameOfScreens(
-        widget: Column(
-          children: [
-            ContentOfGuidesScreen(),
-            ExplorationButton(
-              horizontalPaddingButton: 55.0,
-              onTap: () {
-                context.navigate(ErasScreen());
-              },
-              text: AppStrings.startJourneyButtonText,
-              style: Styles.styleBold15(context).copyWith(fontSize: 15.0),
-            ),
-          ],
+        widget: LayoutBuilder(
+          builder: (context, constraints) {
+            return SingleChildScrollView(
+              child: ConstrainedBox(
+                constraints: BoxConstraints(
+                  minHeight: constraints.maxHeight,
+                ),
+                child: Column(
+                  children: [
+                    ContentOfGuidesScreen(),
+                    ExplorationButton(
+                      horizontalPaddingButton: 55.0.w,
+                      onTap: () {
+                        context.navigate(ErasScreen());
+                      },
+                      text: AppStrings.startJourneyButtonText,
+                      style: Styles.styleBold15(context).copyWith(fontSize: 15.0),
+                    ),
+                  ],
+                ),
+              ),
+            );
+          },
         ),
         backgroundColor: AppColors.primaryColor,
       ),

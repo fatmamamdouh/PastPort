@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class AuthSelectionScreenBottomCurveClipper extends CustomClipper<Path> {
   @override
@@ -6,13 +7,13 @@ class AuthSelectionScreenBottomCurveClipper extends CustomClipper<Path> {
     Path path = Path();
 
     // يبدأ من فوق شمال
-    path.lineTo(0, size.height * 0.35);
+    path.lineTo(0, (size.height * 0.35));
     // منحنى كبير يمين
     path.quadraticBezierTo(
-      size.width / 2,          // نقطة التحكم في نص العرض
-      size.height * 0.8,             // النزول للعمق (اعمق منحنى)
+      (size.width / 2),          // نقطة التحكم في نص العرض
+      (size.height * 0.8),             // النزول للعمق (اعمق منحنى)
       size.width,              // نهاية الخط
-      size.height * 0.35,      // يرتفع تاني لنفس المستوى
+      (size.height * 0.35),      // يرتفع تاني لنفس المستوى
     );
     // يقفل الشكل
     path.lineTo(size.width, 0);

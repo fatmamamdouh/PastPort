@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:pastport/core/extensions/helper_extension.dart';
 import 'package:pastport/core/utils/app_strings.dart';
 import 'package:pastport/core/utils/app_styles.dart';
@@ -16,35 +17,35 @@ class ContentOfGuidesScreen extends StatelessWidget {
           padding: const EdgeInsets.only(left: 28.0),
           child: Text(
             AppStrings.setupAreaText,
-            style: Styles.styleBold24(context).copyWith(fontSize: 24.0),
+            style: Styles.styleBold24(context).copyWith(fontSize: 24.0.sp),
           ),
         ),
-        SizedBox(height: 5.0),
+        SizedBox(height: 5.0.h),
         Padding(
           padding: const EdgeInsets.only(left: 38.0),
           child: Text(
             AppStrings.setupAreaDescriptionText,
             style: Styles.styleDarkRegular16(
               context,
-            ).copyWith(fontSize: 16.0),
+            ).copyWith(fontSize: 16.0.sp),
           ),
         ),
-        SizedBox(height: 18.0),
+        SizedBox(height: 18.0.h),
         Padding(
-          padding: const EdgeInsets.only(left: 28.0),
+          padding: const EdgeInsets.only(left: 28.0, right: 12.0),
           child: Text(
             AppStrings.instructionText,
-            style: Styles.styleSemiBold24(context).copyWith(fontSize: 24.0),
+            style: Styles.styleSemiBold24(context).copyWith(fontSize: 24.0.sp),
           ),
         ),
-        SizedBox(height: 5.0),
+        SizedBox(height: 5.0.h),
         Padding(
           padding: const EdgeInsets.only(left: 38.0),
           child: Text(
             AppStrings.instructionDescriptionText,
             style: Styles.styleDarkRegular16(
               context,
-            ).copyWith(fontSize: 18.0),
+            ).copyWith(fontSize: 16.0.sp),
           ),
         ),
         Row(
@@ -57,7 +58,7 @@ class ContentOfGuidesScreen extends StatelessWidget {
                 style: Styles.styleSemiBold12(
                   context,
                   false,
-                ).copyWith(fontSize: 16.0),
+                ).copyWith(fontSize: 16.0.sp),
               ),
             ),
           ],

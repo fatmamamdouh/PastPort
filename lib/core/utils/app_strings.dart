@@ -228,14 +228,14 @@ you have full range of motion.''';
 
   static const String termsScreenTitle = "Terms of Service";
   static const String lastUpdated = "Last Updated : December 22,2024";
-  static const String acceptanceTitle = "1. Acceptance of Terms";
-  static const String acceptanceDesc = '''Welcome to Civilization Connect, an interactive platform that brings history to life through engaging conversations with historical figures and exploration of ancient civilizations. By accessing and using this application, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use this service.''';
-  static const String serviceTitle = "2. Service Description";
-  static const String serviceDesc = '''Civilization Connect provides users with an immersive educational and entertainment experience featuring interactive conversations with AI-powered historical characters from various civilizations including Ancient Egypt, Rome, Greece, and many others. ''';
-  static const String subscriptionTitle = "3. Subscription Plans and Access";
-  static const String subscriptionDesc = '''Access to features is tiered based on subscription plans: Free Plan provides access to 5 civilizations and 10 historical characters with limited daily interactions. Premium Plan unlocks all civilizations, unlimited characters, and unrestricted conversations.''';
-  static const String userTitle = "4. User Conduct";
-  static const String userDes = '''You agree to use Civilization Connect for lawful educational and entertainment purposes only. You may not use the service to generate, share, or promote content that is harmful, offensive, illegal , or infringes on others' rights.''';
+  static const String firstTermsTitle = "1. Acceptance of Terms";
+  static const String firstTermsDesc = '''Welcome to Civilization Connect, an interactive platform that brings history to life through engaging conversations with historical figures and exploration of ancient civilizations. By accessing and using this application, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use this service.''';
+  static const String secondTermsTitle = "2. Service Description";
+  static const String secondTermsDesc = '''Civilization Connect provides users with an immersive educational and entertainment experience featuring interactive conversations with AI-powered historical characters from various civilizations including Ancient Egypt, Rome, Greece, and many others. ''';
+  static const String thirdTermsTitle = "3. Subscription Plans and Access";
+  static const String thirdTermsDesc = '''Access to features is tiered based on subscription plans: Free Plan provides access to 5 civilizations and 10 historical characters with limited daily interactions. Premium Plan unlocks all civilizations, unlimited characters, and unrestricted conversations.''';
+  static const String fourthTermsTitle = "4. User Conduct";
+  static const String fourthTermsDesc = '''You agree to use Civilization Connect for lawful educational and entertainment purposes only. You may not use the service to generate, share, or promote content that is harmful, offensive, illegal , or infringes on others' rights.''';
 
   /// Privacy Policy screen
 

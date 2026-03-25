@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:pastport/core/utils/app_colors.dart';
 
 abstract class Styles
@@ -183,6 +184,15 @@ abstract class Styles
     return TextStyle(
       fontSize: getResponsiveText(context, 10),
       color: AppColors.secondaryColor,
+      fontWeight: FontWeight.w500,
+      fontFamily: 'Poppins',
+    );
+  }
+
+  static TextStyle styleFaqMedium10(BuildContext context) {
+    return TextStyle(
+      fontSize: getResponsiveText(context, 10.sp),
+      color: AppColors.faqQuestionColor,
       fontWeight: FontWeight.w500,
       fontFamily: 'Poppins',
     );

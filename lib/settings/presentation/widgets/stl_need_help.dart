@@ -28,8 +28,7 @@ class StlNeedHelp extends StatelessWidget {
               fontSize: 12.0.sp,
               color: AppColors.blackColor,
             ),),
-            Text(AppStrings.needHelpAnswer, style: Styles.styleMedium10(context).copyWith(
-              color: AppColors.faqQuestionColor,
+            Text(AppStrings.needHelpAnswer, style: Styles.styleFaqMedium10(context).copyWith(
               fontSize: 12.sp,
             ),),
           ],

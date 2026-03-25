@@ -15,5 +15,7 @@ abstract class AppColors
   static const Color guideTextColor = Color(0xff74614A);
   static const Color boldTextColor = Color(0xffBFA877);
   static const Color greyIconColor = Color(0xffC4C4C4);
+  static const Color faqQuestionColor = Color(0xff666363);
+  static const Color titleFaqsColor = Color(0xff129AE7);
 
 }

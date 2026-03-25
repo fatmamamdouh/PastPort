@@ -17,7 +17,9 @@ class ArrowBackHeadOfScreens extends StatelessWidget {
           CircleAvatar(
             backgroundColor: AppColors.whiteColor.withValues(alpha: .2),
             child: IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pop(context);
+              },
               icon: Icon(Icons.arrow_back_ios),
             ),
           ),

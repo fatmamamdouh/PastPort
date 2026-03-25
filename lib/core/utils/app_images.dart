@@ -177,4 +177,14 @@ class Assets
   /// Assets for hatshepsutTemplateLocationImage
   /// assets/images/hatshepsut_template_location_image.png
   static const String hatshepsutTemplateLocationImage = "assets/images/hatshepsut_template_location_image.png";
+
+  /// Assets for lowerLayerFaqBackgroundImage
+  /// assets/images/lower_layer.png
+  static const String lowerLayerFaqBackgroundImage = "assets/images/lower_layer.png";
+
+  /// Assets for topLayerFaqBackgroundImage
+  /// assets/images/top_layer.png
+  static const String topLayerFaqBackgroundImage = "assets/images/top_layer.png";
+
+
 }

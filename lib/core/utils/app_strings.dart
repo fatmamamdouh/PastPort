@@ -182,46 +182,21 @@ you have full range of motion.''';
   static const String securityQuestion = "Is my data secure ?";
   static const String settingsQuestion = "Can i use the app on multiple devices ?";
 
-  static const String accountFirstAnswer = '''To reset your password, go to the login screen and tap
-  'Forgot Password'. Enter your mail address and we'll send 
-  you a link to create a new password. Make sure to check
-  your spam folder if you don't receive the email within a few
-  minutes.''';
+  static const String accountFirstAnswer = '''To reset your password, go to the login screen and tap 'Forgot Password'. Enter your mail address and we'll send you a link to create a new password. Make sure to check your spam folder if you don't receive the email within a few minutes.''';
 
-  static const String accountSecondAnswer = '''Tap on your profile icon, then select 'Edit Profile'. You can 
-  update your name, email, phone number, photo, and bio. 
-  Don't forget to save your changes before leaving the 
-  screen.''';
+  static const String accountSecondAnswer = '''Tap on your profile icon, then select 'Edit Profile'. You can update your name, email, phone number, photo, and bio. Don't forget to save your changes before leaving the screen.''';
 
-  static const String billingFirstAnswer = '''We accept all major credit cards (Visa, MasterCard, 
-  American Express, Discover),PayPal, Apple Pay, and Google 
-  Pay. All payments are processed securely through our 
-  payment partners.''';
+  static const String billingFirstAnswer = '''We accept all major credit cards (Visa, MasterCard, American Express, Discover),PayPal, Apple Pay, and Google Pay. All payments are processed securely through our payment partners.''';
 
-  static const String billingSecondAnswer = '''To cancel your subscription, go to Settings > Subscription 
+  static const String billingSecondAnswer = '''To cancel your subscription, go to Settings > Subscription > Manage Plan. Tap  'Cancel Subscription' and confirm your choice. You'll retain access until  the end of your current billing period. No refunds for partial periods.''';
 
-> Manage Plan. Tap  'Cancel Subscription' and confirm 
+  static const String securityAnswer = '''Yes, we take data security very seriously. All data is encrypted both in transit and at rest. We use industry-standard security measures and regularly audit our systems. You can read more in our Privacy Policy.''';
 
-your choice. You'll retain access until  the end of your 
-
-current billing period. No refunds for partial periods.''';
-
-  static const String securityAnswer = '''Yes, we take data security very seriously. All
-  data is encrypted both in transit and at rest. 
-  We use industry-standard security measures 
-  and regularly audit our systems. You can read 
-  more in our Privacy Policy.''';
-
-  static const String settingsAnswer = '''Yes, you can use your account on multiple 
-  devices simultaneously. Your data will sync 
-  automatically across all devices. Simply log in 
-  with your credentials on each device you want 
-  to use.''';
+  static const String settingsAnswer = '''Yes, you can use your account on multiple devices simultaneously. Your data will sync automatically across all devices. Simply log in with your credentials on each device you want to use.''';
 
   static const String needHelpQuestion = "Still need help ?";
 
-  static const String needHelpAnswer = '''If you couldn't find the answer you're looking 
-  for, please contact our support team.''';
+  static const String needHelpAnswer = '''If you couldn't find the answer you're looking for, please contact our support team.''';
 
   /// support screen
 

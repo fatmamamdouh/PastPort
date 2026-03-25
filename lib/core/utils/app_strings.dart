@@ -223,4 +223,59 @@ you have full range of motion.''';
   static const String timezoneText = "All times in EST timezone";
   static const String beforeContactSupportText = '''Before contacting support, check our FAQ section for quick 
   answers to common questions.''';
+
+  /// Terms Of Service screen
+
+  static const String termsScreenTitle = "Terms of Service";
+  static const String lastUpdated = "Last Updated : December 22,2024";
+  static const String acceptanceTitle = "1. Acceptance of Terms";
+  static const String acceptanceDesc = '''Welcome to Civilization Connect, an interactive platform that brings history to life through engaging conversations with historical figures and exploration of ancient civilizations. By accessing and using this application, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use this service.''';
+  static const String serviceTitle = "2. Service Description";
+  static const String serviceDesc = '''Civilization Connect provides users with an immersive educational and entertainment experience featuring interactive conversations with AI-powered historical characters from various civilizations including Ancient Egypt, Rome, Greece, and many others. ''';
+  static const String subscriptionTitle = "3. Subscription Plans and Access";
+  static const String subscriptionDesc = '''Access to features is tiered based on subscription plans: Free Plan provides access to 5 civilizations and 10 historical characters with limited daily interactions. Premium Plan unlocks all civilizations, unlimited characters, and unrestricted conversations.''';
+  static const String userTitle = "4. User Conduct";
+  static const String userDes = '''You agree to use Civilization Connect for lawful educational and entertainment purposes only. You may not use the service to generate, share, or promote content that is harmful, offensive, illegal , or infringes on others' rights.''';
+
+  /// Privacy Policy screen
+
+  static const String privacyScreenTitle = "Privacy Policy";
+  static const String firstPrivacyTitle = "1. Information We Collect";
+  static const String firstPrivacyDesc = '''When you use Civilization Connect, we collect several types of information: Account Information including your name, email address, password, and subscription plan details. Usage Data including which civilizations you explore, characters you interact with.''';
+  static const String secondPrivacyTitle = "2. How We Use Your Information";
+  static const String secondPrivacyDesc = '''We use your information to provide and improve the Civilization Connect experience. This includes: Personalizing your interactions with historical characters based on your interests and learning style. Managing your subscription and processing payments. Analyzing usage patterns to develop new civilizations and characters.''';
+  static const String thirdPrivacyTitle = "3. Conversation Data and AI Learning";
+  static const String thirdPrivacyDesc = '''Your conversations with historical characters are processed by our AI systems to provide intelligent, contextual responses. We store conversation histories to enable continuity across sessions and to improve our AI models.''';
+  static const String fourthPrivacyTitle = "4. Data Security";
+  static const String fourthPrivacyDesc = '''We implement robust security measures to protect your information including: End-to-end encryption for sensitive data. Secure servers with regular security audits. Multi-factor authentication options for account protection. Regular backups of conversation histories and user data.''';
+
+
+  /// Cookie Policy screen
+
+  static const String cookiesScreenTitle = "Cookie Policy";
+  static const String firstCookiesTitle = "1. What Are Cookies and Similar Technologies";
+  static const String firstCookiesDesc = '''Cookies are small text files stored on your device when you use Civilization Connect. They help us provide a personalized experience by remembering your preferences, login status, and interaction history with historical characters. We also use similar technologies such as local storage, session tokens''';
+  static const String secondCookiesTitle = "2. Types of Cookies We Use";
+  static const String secondCookiesDesc = '''Essential Cookies: Required for basic app functionality including login authentication, session management, and navigation between civilizations. These cannot be disabled without affecting core features. Performance Cookies: Track how you interact with different civilizations and characters to optimize app performance and loading times.''';
+  static const String thirdCookiesTitle = "3. Subscription-Based Cookie Functionality";
+  static const String thirdCookiesDesc = '''Different subscription tiers utilize cookies differently: Free Plan users have cookies for basic functionality and limited personalization. Premium Plan subscribers benefit from enhanced personalization cookies that remember detailed preferences and conversation patterns. ''';
+  static const String fourthCookiesTitle = "4. Managing and Controlling Cookies";
+  static const String fourthCookiesDesc = '''You have control over cookie usage in Civilization Connect. Through your device settings, you can: Accept or reject non-essential cookies. Clear existing cookies from your device. Set preferences for different cookie types. Configure browser or app settings to notify you when cookies are being placed. ''';
+
+
+  /// Refund Policy screen
+
+  static const String refundScreenTitle = "Refund Policy";
+  static const String firstRefundTitle = "1. Refund Eligibility and Policy Overview";
+  static const String firstRefundDesc = '''Civilization Connect offers a fair refund policy to ensure customer satisfaction. You may request a full refund within 7 days of your initial subscription purchase if you are not satisfied with the service. For subscription renewals, refund requests must be made within 48 hours of the renewal charge.''';
+  static const String secondRefundTitle = "2. Subscription Plans and Refund Terms";
+  static const String secondRefundDesc = '''Different subscription plans have specific refund terms: Premium Monthly subscriptions can be refunded within 7 days of initial purchase or 48 hours of renewal. Premium Annual subscriptions are eligible for pro-rated refunds if canceled within 30 days of initial purchase.''';
+  static const String thirdRefundTitle = "3. Refund Processing and Timeline";
+  static const String thirdRefundDesc = '''Once your refund request is approved, we will process it within 3-5 business days. The time it takes for the refund to appear in your account varies by payment provider: Credit/debit cards typically take 5-10 business days. PayPal refunds usually appear within 3-5 business days. ''';
+  static const String fourthRefundTitle = "4. Cancellation vs. Refund";
+  static const String fourthRefundDesc = '''It's important to understand the difference between canceling your subscription and requesting a refund. Cancellation: You can cancel your subscription at any time. You will retain access to Premium features until the end of your current billing period. No refund is provided for the unused portion unless within the eligibility window. Refund: Returns your payment and immediately terminates Premium access.''';
+  static const String footTermsScreens = "If you have any questions about this policy, please contact our support team.";
+
+
+
 }

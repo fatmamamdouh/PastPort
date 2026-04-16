@@ -21,11 +21,11 @@ class TermsPoliciesScreen extends StatelessWidget {
       body: ScreensBasic(
         content: Column(
           children: [
-            HeadSettings(title: "Terms & Policies"),
+            HeadSettings(title: AppStrings.termsPoliciesScreenTitle),
             SizedBox(height: 60.h),
             NavigationCard(
               title: AppStrings.termsScreenTitle,
-              description: "Our terms and condition",
+              description: AppStrings.termsServicesDesc,
               iconImage: Assets.termsServiceIconImage,
               onPressed: ()
               {
@@ -34,7 +34,7 @@ class TermsPoliciesScreen extends StatelessWidget {
             ),
             NavigationCard(
               title: AppStrings.privacyScreenTitle,
-              description: "How we handle your data",
+              description: AppStrings.privacyPolicyDesc,
               iconImage: Assets.privacyIconImage,
               onPressed: ()
               {
@@ -43,7 +43,7 @@ class TermsPoliciesScreen extends StatelessWidget {
             ),
             NavigationCard(
               title: AppStrings.cookiesScreenTitle,
-              description: "How we use cookies",
+              description: AppStrings.cookiePolicyDesc,
               iconImage: Assets.cookiesIconImage,
               onPressed: ()
               {
@@ -52,7 +52,7 @@ class TermsPoliciesScreen extends StatelessWidget {
             ),
             NavigationCard(
               title: AppStrings.refundScreenTitle,
-              description: "Returns and refund",
+              description: AppStrings.refundPolicyDesc,
               iconImage: Assets.refundIconImage,
               onPressed: ()
               {
@@ -63,8 +63,8 @@ class TermsPoliciesScreen extends StatelessWidget {
               height: 28.0.h,
             ),
             StlNeedHelp(
-              answer: "By using our service, you agree to these terms and policies. Please read them carefully.",
-              question: "Last Updated: December 4, 2025",
+              answer: AppStrings.agreementText,
+              question: AppStrings.lastUpdated,
             ),
           ],
         ),

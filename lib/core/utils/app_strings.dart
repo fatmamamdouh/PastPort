@@ -276,6 +276,15 @@ you have full range of motion.''';
   static const String fourthRefundDesc = '''It's important to understand the difference between canceling your subscription and requesting a refund. Cancellation: You can cancel your subscription at any time. You will retain access to Premium features until the end of your current billing period. No refund is provided for the unused portion unless within the eligibility window. Refund: Returns your payment and immediately terminates Premium access.''';
   static const String footTermsScreens = "If you have any questions about this policy, please contact our support team.";
 
+  /// Terms & Policies screen
+
+  static const String termsPoliciesScreenTitle = "Terms & Policies";
+  static const String termsServicesDesc = "Our terms and condition";
+  static const String privacyPolicyDesc = "How we handle your data";
+  static const String cookiePolicyDesc = "How we use cookies";
+  static const String refundPolicyDesc = "Returns and refund";
+  static const String lastUpdatedText = "Last Updated: December 4, 2025";
+  static const String agreementText = "By using our service, you agree to these terms and policies. Please read them carefully.";
 
 
 }

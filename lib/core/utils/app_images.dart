@@ -186,5 +186,20 @@ class Assets
   /// assets/images/top_layer.png
   static const String topLayerFaqBackgroundImage = "assets/images/top_layer.png";
 
+  /// Assets for cookiesIconImage
+  /// assets/images/cookies.png
+  static const String cookiesIconImage = "assets/images/cookies.png";
+
+  /// Assets for privacyIconImage
+  /// assets/images/privacy.png
+  static const String privacyIconImage = "assets/images/privacy.png";
+
+  /// Assets for termsServiceIconImage
+  /// assets/images/terms_service.png
+  static const String termsServiceIconImage = "assets/images/terms_service.png";
+
+  /// Assets for refundIconImage
+  /// assets/images/refund.png
+  static const String refundIconImage = "assets/images/refund.png";
 
 }

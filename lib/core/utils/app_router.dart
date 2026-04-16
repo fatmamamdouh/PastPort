@@ -1,6 +1,6 @@
 import 'package:go_router/go_router.dart';
 import 'package:pastport/authentication/presentation/screens/login_screen.dart';
-import 'package:pastport/settings/presentation/screens/privacy_policy_screen.dart';
+import 'package:pastport/settings/presentation/screens/terms%20&%20policies/terms_policies_screen.dart';
 
 abstract class AppRouter
 {
@@ -26,7 +26,7 @@ abstract class AppRouter
         GoRoute(
           name: kOnBoardingView,
           path: kOnBoardingView,
-          builder: (context, state) => PrivacyPolicyScreen(),
+          builder: (context, state) => TermsPoliciesScreen(),
         ),
       ]
   );

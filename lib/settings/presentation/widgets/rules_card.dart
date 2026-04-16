@@ -12,7 +12,7 @@ class RulesCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(right: 20.0, left: 50.0, bottom: 10.0,),
+      padding: const EdgeInsets.only(right: 25.0, left: 45.0, bottom: 10.0,),
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(5.0.r),

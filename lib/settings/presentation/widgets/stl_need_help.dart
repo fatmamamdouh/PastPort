@@ -1,10 +1,12 @@
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:pastport/core/utils/app_colors.dart';
 import 'package:flutter/material.dart';
-import 'package:pastport/core/utils/app_strings.dart';
 import 'package:pastport/core/utils/app_styles.dart';
 class StlNeedHelp extends StatelessWidget {
-  const StlNeedHelp({super.key});
+  const StlNeedHelp({super.key, required this.answer, required this.question});
+
+  final String question;
+  final String answer;
 
   @override
   Widget build(BuildContext context) {
@@ -24,11 +26,11 @@ class StlNeedHelp extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(AppStrings.needHelpQuestion, style: Styles.styleSemiBold12(context, false).copyWith(
+            Text(question, style: Styles.styleSemiBold12(context, false).copyWith(
               fontSize: 12.0.sp,
               color: AppColors.blackColor,
             ),),
-            Text(AppStrings.needHelpAnswer, style: Styles.styleFaqMedium10(context).copyWith(
+            Text(answer, style: Styles.styleFaqMedium10(context).copyWith(
               fontSize: 12.sp,
             ),),
           ],

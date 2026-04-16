@@ -51,7 +51,10 @@ class FaqScreen extends StatelessWidget {
               itemCount: faqs.length,
             ),
           ),
-          StlNeedHelp(),
+          StlNeedHelp(
+            question: AppStrings.needHelpQuestion,
+            answer: AppStrings.needHelpAnswer,
+          ),
         ],
       ),),
     );

@@ -202,4 +202,20 @@ class Assets
   /// assets/images/refund.png
   static const String refundIconImage = "assets/images/refund.png";
 
+  /// Assets for contactSupportIconImage
+  /// assets/images/contact_support.png
+  static const String contactSupportIconImage = "assets/images/contact_support.png";
+
+  /// Assets for faqIconImage
+  /// assets/images/faq_icon.png
+  static const String faqIconImage = "assets/images/faq_icon.png";
+
+  /// Assets for feedbackIconImage
+  /// assets/images/feedback.png
+  static const String feedbackIconImage = "assets/images/feedback.png";
+
+  /// Assets for reportProblemIconImage
+  /// assets/images/report_problem.png
+  static const String reportProblemIconImage = "assets/images/report_problem.png";
+
 }

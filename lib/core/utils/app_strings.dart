@@ -200,10 +200,8 @@ you have full range of motion.''';
 
   /// support screen
 
-  static const String supportScreenTitle = "Contact Support";
   static const String weHereToHelpText = "We're here to help";
-  static const String weHereToHelpDescriptionText = '''Choose your preferred method to get in touch
-  with our support team. We typically respond within 24 hours.''';
+  static const String weHereToHelpDescriptionText = '''Choose your preferred method to get in touch with our support team. We typically respond within 24 hours.''';
 
   static const String emailSupportText = "Email Support";
   static const String sendUsEmailText = "Send us an email and we’ll respond within 24 hours";

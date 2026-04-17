@@ -17,7 +17,7 @@ class HelpSupportScreen extends StatelessWidget {
       body: ScreensBasic(
         content: Column(
           children: [
-            HeadSettings(title: "Help & Support"),
+            HeadSettings(title: AppStrings.helpSupportScreenTitle),
             SizedBox(height: 60.h),
             NavigationCard(
               title: AppStrings.faqTitleScreen,

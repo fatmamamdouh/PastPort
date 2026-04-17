@@ -27,7 +27,7 @@ abstract class AppRouter
         GoRoute(
           name: kOnBoardingView,
           path: kOnBoardingView,
-          builder: (context, state) => TermsPoliciesScreen(),
+          builder: (context, state) => HelpSupportScreen(),
         ),
       ]
   );

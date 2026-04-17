@@ -286,5 +286,24 @@ you have full range of motion.''';
   static const String lastUpdatedText = "Last Updated: December 4, 2025";
   static const String agreementText = "By using our service, you agree to these terms and policies. Please read them carefully.";
 
+  /// Help & Support screen
+
+  static const String helpSupportScreenTitle = "Help & Support";
+  static const String helpOptionsText = "Help Options";
+  static const String faqDesc = "Find answer to common question";
+  static const String contactSupportDesc = "Chat with our support team";
+  static const String reportProblemDesc = "Let us know what went wrong";
+  static const String sendFeedbackDesc = "Share your thoughts with us";
+  static const String reportProblemScreenTitle = "Report a Problem";
+  static const String contactSupportScreenTitle = "Contact Support";
+  static const String sendFeedbackScreenTitle = "Send Feedback";
+  static const String statusText = "Status";
+  static const String systemStatusTitle = "System Status";
+  static const String systemStatusDesc = "All systems operational";
+  static const String appVersionTitle = "App Version";
+  static const String appVersionDesc = "Version 1.0.0";
+  static const String lastUpdatedTitle = "Last Updated";
+  static const String lastUpdatedDesc = "December 4, 2025";
+  static const String upToDateText = "Up to date";
 
 }

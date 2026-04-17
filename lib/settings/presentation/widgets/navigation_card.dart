@@ -9,13 +9,15 @@ class NavigationCard extends StatelessWidget {
     required this.title,
     required this.description,
     required this.iconImage,
-    required this.onPressed,
+    this.navigateIcon,
+    required this.circleColor,
   });
 
   final String title;
   final String description;
   final String iconImage;
-  final void Function() onPressed;
+  final Color circleColor;
+  final Widget? navigateIcon;
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +31,7 @@ class NavigationCard extends StatelessWidget {
             children: [
               CircleAvatar(
                 radius: 16.r,
-                backgroundColor: AppColors.secondaryColor,
+                backgroundColor: circleColor,
                 child: Image.asset(
                   iconImage,
                   width: 18.0,
@@ -45,6 +47,9 @@ class NavigationCard extends StatelessWidget {
                     title,
                     style: Styles.styleRegular21(context).copyWith(fontSize: 11.0),
                   ),
+                  SizedBox(
+                    height: 3.0,
+                  ),
                   Text(
                     description,
                     style: Styles.styleMedium10(
@@ -54,10 +59,7 @@ class NavigationCard extends StatelessWidget {
                 ],
               ),
               Spacer(),
-              IconButton(
-                onPressed: onPressed,
-                icon: Icon(Icons.arrow_forward, color: AppColors.secondaryColor),
-              ),
+              navigateIcon ?? SizedBox.shrink(),
             ],
           ),
         ),

@@ -115,7 +115,7 @@ abstract class Styles
 
   static TextStyle styleMedium16(BuildContext context) {
     return TextStyle(
-      fontSize: getResponsiveText(context, 16),
+      fontSize: getResponsiveText(context, 16.sp),
       color: AppColors.greyTextColor,
       fontWeight: FontWeight.w500,
       fontFamily: 'Poppins',

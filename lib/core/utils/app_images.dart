@@ -218,4 +218,12 @@ class Assets
   /// assets/images/report_problem.png
   static const String reportProblemIconImage = "assets/images/report_problem.png";
 
+  /// Assets for appVersionIcon
+  /// assets/images/app_version.png
+  static const String appVersionIcon = "assets/images/app_version.png";
+
+  /// Assets for systemStatusIcon
+  /// assets/images/system_status.png
+  static const String systemStatusIcon = "assets/images/system_status.png";
+
 }

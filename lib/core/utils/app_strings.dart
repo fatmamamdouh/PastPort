@@ -205,7 +205,7 @@ you have full range of motion.''';
 
   static const String emailSupportText = "Email Support";
   static const String sendUsEmailText = "Send us an email and we’ll respond within 24 hours";
-  static const String emailAddressText = "Support@example.com";
+  static const String mailText = "Support@example.com";
 
   static const String responseTimeText = "Response Times";
   static const String averageResponseTimeText = "Average response time";
@@ -219,8 +219,7 @@ you have full range of motion.''';
   static const String tenToFourHoursText = "10:00 AM - 4:00 PM";
   static const String closedText = "Closed";
   static const String timezoneText = "All times in EST timezone";
-  static const String beforeContactSupportText = '''Before contacting support, check our FAQ section for quick 
-  answers to common questions.''';
+  static const String beforeContactSupportText = '''Before contacting support, check our FAQ section for quick answers to common questions.''';
 
   /// Terms Of Service screen
 

@@ -226,4 +226,8 @@ class Assets
   /// assets/images/system_status.png
   static const String systemStatusIcon = "assets/images/system_status.png";
 
+  /// Assets for emailIcon
+  /// assets/images/email_icon.png
+  static const String emailIcon = "assets/images/email_icon.png";
+
 }

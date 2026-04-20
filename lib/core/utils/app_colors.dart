@@ -17,5 +17,6 @@ abstract class AppColors
   static const Color greyIconColor = Color(0xffC4C4C4);
   static const Color faqQuestionColor = Color(0xff666363);
   static const Color titleFaqsColor = Color(0xff129AE7);
+  static const Color containerBackgroundColor = Color(0xffCBD3E5);
 
 }

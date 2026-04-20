@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:pastport/core/utils/app_strings.dart';
 import 'package:pastport/core/utils/app_styles.dart';
-import 'package:pastport/settings/presentation/screens/help_and_support/email_support_block.dart';
-import 'package:pastport/settings/presentation/screens/help_and_support/here_to_help_block.dart';
-import 'package:pastport/settings/presentation/screens/help_and_support/operating_hours_block.dart';
-import 'package:pastport/settings/presentation/screens/help_and_support/response_times_block.dart';
+import 'package:pastport/settings/presentation/widgets/contact_support_widgets/email_support_block.dart';
+import 'package:pastport/settings/presentation/widgets/contact_support_widgets/here_to_help_block.dart';
+import 'package:pastport/settings/presentation/widgets/contact_support_widgets/operating_hours_block.dart';
+import 'package:pastport/settings/presentation/widgets/contact_support_widgets/response_times_block.dart';
 import 'package:pastport/settings/presentation/widgets/head_settings.dart';
 import 'package:pastport/settings/presentation/widgets/screens_basic.dart';
 

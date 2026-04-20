@@ -230,4 +230,8 @@ class Assets
   /// assets/images/email_icon.png
   static const String emailIcon = "assets/images/email_icon.png";
 
+  /// Assets for questionMarkIcon
+  /// assets/images/q_mark.png
+  static const String questionMarkIcon = "assets/images/q_mark.png";
+
 }

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:pastport/core/utils/app_colors.dart';
 import 'package:pastport/core/utils/app_strings.dart';
 import 'package:pastport/core/utils/app_styles.dart';
-import 'package:pastport/settings/presentation/screens/help_and_support/responding_times.dart';
+import 'package:pastport/settings/presentation/widgets/contact_support_widgets/responding_times.dart';
 
 class OperatingHoursBlock extends StatelessWidget {
   const OperatingHoursBlock({super.key});

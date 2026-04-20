@@ -4,8 +4,9 @@ import 'package:pastport/core/utils/app_colors.dart';
 import 'package:pastport/core/utils/app_images.dart';
 import 'package:pastport/core/utils/app_strings.dart';
 import 'package:pastport/core/utils/app_styles.dart';
-import 'package:pastport/settings/presentation/screens/faq_screen.dart';
 import 'package:pastport/settings/presentation/screens/help_and_support/contact_support_screen.dart';
+import 'package:pastport/settings/presentation/screens/help_and_support/faq_screen.dart';
+import 'package:pastport/settings/presentation/screens/help_and_support/report_problem_screen.dart';
 import 'package:pastport/settings/presentation/widgets/navigation_card.dart';
 
 class HelpOptions extends StatelessWidget {
@@ -62,7 +63,7 @@ class HelpOptions extends StatelessWidget {
           navigateIcon: IconButton(
             onPressed: ()
             {
-              context.navigate(FaqScreen());
+              context.navigate(ReportProblemScreen());
             },
             icon: Icon(Icons.arrow_forward, color: AppColors.secondaryColor),
           ),

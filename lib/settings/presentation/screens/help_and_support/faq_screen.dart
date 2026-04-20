@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pastport/core/utils/app_strings.dart';
 import 'package:pastport/settings/presentation/widgets/head_settings.dart';
-import 'package:pastport/settings/presentation/widgets/help%20&%20support%20widgets/drop_questions.dart';
+import 'package:pastport/settings/presentation/widgets/help_support_widgets/drop_questions.dart';
 import 'package:pastport/settings/presentation/widgets/screens_basic.dart';
 import 'package:pastport/settings/presentation/widgets/stl_need_help.dart';
 

@@ -3,10 +3,12 @@ import 'package:pastport/core/utils/app_colors.dart';
 import 'package:pastport/core/utils/app_styles.dart';
 
 class RespondingTimes extends StatelessWidget {
-  const RespondingTimes({super.key, required this.days, required this.hours});
+  const RespondingTimes({super.key, required this.days, required this.hours, required this.daysStyle, required this.hoursStyle});
 
   final String days;
   final String hours;
+  final TextStyle daysStyle;
+  final TextStyle hoursStyle;
 
   @override
   Widget build(BuildContext context) {
@@ -14,16 +16,12 @@ class RespondingTimes extends StatelessWidget {
       children: [
         Text(
           days,
-          style: Styles.styleSemiBold20(
-            context,
-          ).copyWith(color: AppColors.blackColor, fontSize: 10.0),
+          style: daysStyle,
         ),
         Spacer(),
         Text(
           hours,
-          style: Styles.styleSemiBold20(
-            context,
-          ).copyWith(fontSize: 9.0, color: AppColors.faqQuestionColor),
+          style: hoursStyle,
         ),
       ],
     );

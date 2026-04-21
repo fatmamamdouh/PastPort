@@ -37,14 +37,32 @@ class OperatingHoursBlock extends StatelessWidget {
             RespondingTimes(
               days: AppStrings.monToFriText,
               hours: AppStrings.nineToSixHoursText,
+              daysStyle: Styles.styleSemiBold20(
+                context,
+              ).copyWith(color: AppColors.blackColor, fontSize: 10.0),
+              hoursStyle: Styles.styleSemiBold20(
+                context,
+              ).copyWith(fontSize: 9.0, color: AppColors.faqQuestionColor),
             ),
             RespondingTimes(
               days: AppStrings.saturdayText,
               hours: AppStrings.tenToFourHoursText,
+              daysStyle: Styles.styleSemiBold20(
+                context,
+              ).copyWith(color: AppColors.blackColor, fontSize: 10.0),
+              hoursStyle: Styles.styleSemiBold20(
+                context,
+              ).copyWith(fontSize: 9.0, color: AppColors.faqQuestionColor),
             ),
             RespondingTimes(
               days: AppStrings.sundayText,
               hours: AppStrings.closedText,
+              daysStyle: Styles.styleSemiBold20(
+                context,
+              ).copyWith(color: AppColors.blackColor, fontSize: 10.0),
+              hoursStyle: Styles.styleSemiBold20(
+                context,
+              ).copyWith(fontSize: 9.0, color: AppColors.faqQuestionColor),
             ),
           ],
         ),

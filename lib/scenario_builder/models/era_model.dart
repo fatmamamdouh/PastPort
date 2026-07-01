@@ -2,7 +2,7 @@ import 'package:pastport/core/utils/app_images.dart';
 import 'package:pastport/core/utils/app_strings.dart';
 
 class EraModel {
-  final int id;
+  final String sceneId;
   final String cover;
   final String title;
   final String subTitle;
@@ -15,7 +15,7 @@ class EraModel {
   final List<String> goalImages;
 
   EraModel({
-    required this.id,
+    required this.sceneId,
     required this.cover,
     required this.title,
     required this.subTitle,
@@ -33,7 +33,7 @@ class EraModel {
 
 List<EraModel> eras = [
   EraModel(
-    id: 1,
+    sceneId: "1c19dc70-fef3-450b-957f-14c1ec327032",
     cover: Assets.ancientEgyptEraCover,
     title: AppStrings.ancientEgyptTitleText,
     subTitle: AppStrings.ancientEgyptDescText,
@@ -74,7 +74,7 @@ List<EraModel> eras = [
   ),
 
   EraModel(
-    id: 2,
+    sceneId: "2",
     cover: Assets.romanEmpireCover,
     title: AppStrings.romanEmpireTitleText,
     subTitle: AppStrings.romanEmpireDescText,
@@ -115,7 +115,7 @@ List<EraModel> eras = [
   ),
 
   EraModel(
-    id: 3,
+    sceneId: "3",
     cover: Assets.ancientChinaEraCover,
     title: AppStrings.ancientChinaTitleText,
     subTitle: AppStrings.ancientChinaDescText,
@@ -156,7 +156,7 @@ List<EraModel> eras = [
   ),
 
   EraModel(
-    id: 4,
+    sceneId: "4",
     cover: Assets.ancientGreeceEraCover,
     title: AppStrings.ancientGreeceTitleText,
     subTitle: AppStrings.ancientGreeceDescText,
@@ -168,8 +168,7 @@ List<EraModel> eras = [
       Assets.ancientGreeceDetails_3,
       Assets.ancientGreeceDetails_4,
     ],
-    placesImages: const
-    [
+    placesImages: const [
       Assets.acropolisAthensPlace,
       Assets.forbiddenCityGreecePlace,
       Assets.olympiaPlace,
@@ -181,15 +180,13 @@ List<EraModel> eras = [
       AppStrings.olympiaText,
       AppStrings.epidaurusTheatreText,
     ],
-    roleImages: const
-    [
+    roleImages: const [
       Assets.historicalRoleGreece,
       Assets.citizenRoleGreece,
       Assets.characterRoleGreece,
       Assets.visitorRoleGreece,
     ],
-    goalImages: const
-    [
+    goalImages: const [
       Assets.educationalGoalImageGreece,
       Assets.explorationGoalImageGreece,
       Assets.culturalGoalImageGreece,

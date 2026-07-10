@@ -383,4 +383,15 @@ class Assets
   /// assets/images/terracotta_army_place.png
   static const String terracottaArmyPlace = "assets/images/terracotta_army_place.png";
 
+  /// Assets for characterLoadingIcon
+  /// assets/images/character_icon_loading.png
+  static const String characterLoadingIcon = "assets/images/character_icon_loading.png";
+
+  /// Assets for pyramidsLoadingIcon
+  /// assets/images/pyramids_icon_loading.png
+  static const String pyramidsLoadingIcon = "assets/images/pyramids_icon_loading.png";
+
+  /// Assets for sphinxLoadingIcon
+  /// assets/images/sphinx_icon_loading.png
+  static const String sphinxLoadingIcon = "assets/images/sphinx_icon_loading.png";
 }

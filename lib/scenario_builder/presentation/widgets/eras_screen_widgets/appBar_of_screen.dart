@@ -23,7 +23,7 @@ class AppbarOfScreen extends StatelessWidget {
           ),
           Image.asset(Assets.iconNameImage, height: 19.28, width: 19.07),
           Text(
-            "ort",
+            "rt",
             style: Styles.styleSemiBold24(
               context,
             ).copyWith(fontSize: 32, color: AppColors.secondaryColor),
